@@ -10,6 +10,7 @@ import imp
 import errno
 import socket
 import SocketServer
+import django
 from optparse import make_option
 
 from devserver.handlers import DevServerHandler
